@@ -1,0 +1,2 @@
+gcc -shared -o minmax.so -fPIC minmax.c
+gcc -shared -o concat.so -fPIC concat.c
