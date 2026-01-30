@@ -37,7 +37,7 @@ To run the anomaly detection script, you need to configure it to connect to your
     -   Inside the `if __name__ == '__main__':` block, modify the following variables to match your environment and data:
         - `URI`: The connection URI for your Neo4j instance.
         - `AUTH`: The authentication tuple (username, password) for your Neo4j instance.
-        - `QUERY`: The Cypher query to retrieve the data that represents the set of events. In a real environment this 
+        - `QUERY`: The Cypher query to retrieve the data that represents the set of events. In a real environment this is the set of knowledge event accurately stored.
         - `ID_COLUMN`: The name of the column in the query's result that contains the event identifier.
         - `EMBEDDING_COLUMNS`: A list of column names that contain the embeddings.
 
